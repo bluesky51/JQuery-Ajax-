@@ -110,9 +110,8 @@ jQuery对象.load(url,params,function(data){})
 /**
 *url:服务器的资源地址
 *params:请求参数
-       文档api解释： 不加参数默认是GET,如果添加了提交参数会转化成POST请求。
-       结果测试：    提交的是字符串类型参数或者不提交参数都是get
-       备注：       提交的是对象类型的参数会转化成post请求，不提交参数是get请求
+         传递key=value形式或者空参数(不传参数)是GET,
+         传递参数是json对象类型的会转化成POST请求。
 *function(data) 结果响应函数
 */
 ```
